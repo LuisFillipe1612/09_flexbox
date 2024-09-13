@@ -1,0 +1,125 @@
+#um {
+    background-color: grey;
+}
+
+.flexUm {
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.branco {
+    background-color: white;
+}
+
+.preto {
+    background-color: black;
+    color: white;
+}
+
+#menu1 {
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bloco {
+    height: 40px;
+    width:40px
+}
+
+.dois {
+    background-color: lightblue;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dois ul{
+    display: flex;
+    list-style: none;
+}
+
+.dois ul > li {
+    margin: 0 50px;
+    background-color: white;
+    padding: 15px;
+}
+
+.container {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.coluna {
+    display: flex;
+    height: 300px;
+    width: 190px;
+    background-color: lightblue;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.coluna header {
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 900px;
+    margin-left: 200px;
+}
+
+.rodape {
+    flex: 1;
+    background-color: chocolate;
+}
+
+.maior {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+}
+
+.menor {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu2 {
+    flex: 1;
+    background-color: lightgreen;
+}
+
+.cbc {
+    background-color: blueviolet;
+    color: white;
+    flex: 1;
+}
+
+#artigo {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    flex: 1;
+}
